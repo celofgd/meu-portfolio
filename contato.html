@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entre em contato</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="div-header">
+                <p class="header-nome">Marcelo Figueiredo da Silva</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Sobre mim</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Deseja entrar em contato <span style="color: #50a8ec">comigo?</span></h1>
+            <h2>Preencha as informações abaixo, assim que possível farei o retorno!</h2>
+            <article>
+                <form action="https://formsubmit.co/celofgd@gmail.com" method="POST">
+                    <table>
+                        <tr>
+                            <th><label for="nome">Nome:</label></th>
+                            <td><input type="text" name="nome" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="email">E-mail:</label></th>
+                            <td><input type="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="msg">Digite sua mensagem:</label></th>
+                            <td><textarea name="msg" rows="5" cols="40" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="hidden" name="_next" value="http://127.0.0.1:5500/contato_enviado.html"></td>
+                            <td><button type="submit">Enviar</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </article>
+        </main>
+        <footer>
+            <div class="div-footer">
+            </div>
+        </footer>
+    </body>
+</html>
